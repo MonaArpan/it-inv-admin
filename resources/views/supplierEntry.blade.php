@@ -5,7 +5,7 @@
 <div class="container">
     <h2>Supplier Master</h2>
 
-    <form action="{{action('PostsController@store')}}" method="POST">
+    <form action="{{action('SupplierController@store')}}" method="POST">
         {{ csrf_field() }}
             
         <div class="form-group">
